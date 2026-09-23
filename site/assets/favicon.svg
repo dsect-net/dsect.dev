@@ -1,0 +1,14 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#0A0B0E"/>
+  <g transform="translate(128 128) scale(2.13)"><defs>
+      <mask id="cutmask-k" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
+        <rect x="0" y="0" width="120" height="120" fill="white"/>
+        <line x1="4" y1="94" x2="104" y2="22" stroke="black" stroke-width="20"/>
+      </mask>
+      <clipPath id="dclip-k"><path d="M22 18 H56 A42 42 0 0 1 56 102 H22 Z"/></clipPath>
+    </defs>
+    <path d="M22 18 H56 A42 42 0 0 1 56 102 H22 Z" fill="none" stroke="#E8EBF0" stroke-width="11" mask="url(#cutmask-k)"/>
+    <g clip-path="url(#dclip-k)">
+      <line x1="4" y1="94" x2="104" y2="22" stroke="#22D3EE" stroke-width="10"/>
+    </g></g>
+</svg>
