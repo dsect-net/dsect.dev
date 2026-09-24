@@ -119,3 +119,11 @@ p { max-width: 42em; }
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 }
+
+/* Privacy and terms pages. */
+.legal .hero { padding-block: clamp(2.5rem, 8vw, 5rem) clamp(1.5rem, 4vw, 2.5rem); }
+.legal h3 { margin-top: 1.75rem; margin-bottom: .5rem; }
+.legal h3 + p { margin-top: 0; }
+nav a[aria-current="page"] { color: var(--fg); }
+.foot a { color: inherit; }
+.foot a:hover { color: var(--fg); }
