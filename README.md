@@ -37,7 +37,7 @@ Before merging, check:
 
 - **Public by definition.** Nothing internal goes here: no private hostnames, internal addresses,
   agent inboxes or secrets. Internal DSECT services are never reachable through this site.
-- Copy comes from the DSECT Charter. Changes to mission or positioning need Scott's approval.
+- Copy comes from the DSECT Charter. Changes to mission or positioning need Scotty's approval.
 
 ## License
 
