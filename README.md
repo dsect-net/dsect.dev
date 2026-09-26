@@ -11,14 +11,14 @@ site's canonical home is `dsect.net`.
 | path | what |
 |---|---|
 | `site/` | everything that is published: `index.html`, `404.html`, `assets/` |
-| `site/assets/site.css` | styles; colour and type tokens mirror [`design-system`](https://github.com/DSECT-Labs/design-system) `tokens.css` |
+| `site/assets/site.css` | styles; colour and type tokens mirror [`design-system`](https://github.com/dsect-net/design-system) `tokens.css` |
 | `.github/workflows/deploy.yml` | deploys `site/` to GitHub Pages on every push to `main` |
 
 Plain static HTML and CSS: no build step, no JavaScript, no tracking.
 
 ## Working on it
 
-Follow the org [contributing guide](https://github.com/DSECT-Labs/.github/blob/main/CONTRIBUTING.md):
+Follow the org [contributing guide](https://github.com/dsect-net/.github/blob/main/CONTRIBUTING.md):
 branch from `main`, keep a pull request to one concern, and merge only after a self-check.
 
 Preview locally:
